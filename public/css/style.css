@@ -147,10 +147,6 @@ header {
   padding: 1em;
 }
 
-.logo {
-  max-width: 100px;
-}
-
 .nav {
   position: fixed;
   background: var(--clr-dark);
@@ -431,7 +427,6 @@ header {
 
 .footer__link {
   font-weight: var(--fw-bold);
-  color: var(--clr-accent);
 }
 
 .footer__link:hover,
@@ -449,17 +444,12 @@ header {
   justify-content: center;
   margin: 2em 0 0;
   padding: 0;
-  color: var(--clr-accent);
 }
 
 .social-list__item {
   margin: 0 0.5em;
-  color: var(--clr-accent);
-  z-index: 100;
 }
 
 .social-list__link {
   padding: 0.5em;
-  color: var(--clr-accent);
-  z-index: 100;
 }
