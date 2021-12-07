@@ -3,7 +3,7 @@ const navLinks = document.querySelectorAll('.nav__link');
 const loader = document.querySelector('.loader');
 const main = document.querySelector('.main');
 const header = document.querySelector('.header');
-const nav = document.querySelector('.nav');;
+const nav = document.querySelector('.nav');
 
 navToggle.addEventListener('click', () => {
   document.body.classList.toggle('nav-open');
